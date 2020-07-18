@@ -487,7 +487,7 @@ RESPONSIVE
  .page-header .page-header-breadcrumb li, .page-header .page-header-breadcrumb li a {
      font-size: 13px;
      text-transform: capitalize;
-     color: #a7b3c6;
+     color: #646464cb;
 }
  .page-header .page-header-breadcrumb li a {
      -webkit-transition: 0.2s color;
@@ -510,6 +510,8 @@ RESPONSIVE
 \*----------------------------*/
  .post {
      margin-bottom: 40px;
+     margin-left: 5px;
+     padding: 0;
 }
  .post .post-img {
      display: block;
@@ -773,6 +775,8 @@ RESPONSIVE
 ===========================================================*/
  .aside-widget {
      margin-bottom: 40px;
+     margin-left: 130px;
+     margin-right: 0;
 }
 /*----------------------------*\
 	category
