@@ -1,5 +1,7 @@
 {% extends 'base/base.html' %}
+{% comment %} {% extends 'base/header.html' %} {% endcomment %}
 {% load static %}
+{% block title %} Blog | {{post.title}} {% endblock title %}
 {% block extraheader %}
 <div id="post-header" class="page-header">
 	<div class="background-img" style="background-image: url({{ post.category.ctg_image.url }});"></div>
