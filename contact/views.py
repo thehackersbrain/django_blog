@@ -7,7 +7,6 @@ from .forms import ContactForm
 def contact_page(request):
     forms = ContactForm()
     if request.method == 'POST':
-        forms = ContactForm(request.POST)
         if forms.is_valid():
             forms.save()
             messages.add_message(request, messages.INFO, 'Submitted!')
